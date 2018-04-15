@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:js",
-    "test:js": "globstar jshint *.js",
+    "test:js": "globstar jshint app/*.js",
     "init-project": "npm install && touch index.js",
     "build": "npm-run-all test"
   },
